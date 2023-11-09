@@ -1,0 +1,16 @@
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\bin\Debug\netstandard2.0\Asistencia.deps.json
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\bin\Debug\netstandard2.0\Asistencia.dll
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\bin\Debug\netstandard2.0\ref\Asistencia.dll
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\bin\Debug\netstandard2.0\Asistencia.pdb
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.dll
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\refint\Asistencia.dll
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\Asistencia.pdb
+C:\Users\Alumno\Desktop\movil\Asistencia\Asistencia\obj\Debug\netstandard2.0\menuPage.xaml.g.cs

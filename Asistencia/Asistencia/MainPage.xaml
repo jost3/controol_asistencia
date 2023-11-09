@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Asistencia.MainPage"
+             BackgroundColor="#112B47">
+             
+
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+        <Image Source="senati.png" MinimumWidthRequest="180" MinimumHeightRequest="180"></Image>
+        <Entry Placeholder="Usuario" TextColor="White" x:Name="TextUsuario" Text="{Binding TextUsuario}"  PlaceholderColor="Gray"></Entry>
+        <Entry Placeholder="Contraseña"  x:Name="TextContra" Text="{Binding TextContra}" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
+        <Button VerticalOptions="Center" Text="Login" x:Name="Login" Command="{Binding LoginCommand}" TextColor="White" BackgroundColor="Transparent" 
+                BorderColor="Black" BorderWidth="1.5" CornerRadius="50"></Button>
+    </StackLayout>
+    
+
+</ContentPage>
