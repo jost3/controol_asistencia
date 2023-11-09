@@ -13,10 +13,11 @@ namespace Asistencia
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class menuPage : ContentPage
 	{
-		public menuPage ()
+		public menuPage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
+
 		private async void ScanButton_Clicked(object sender, EventArgs e)
 		{
 			var scanPage = new ZXingScannerPage();
@@ -34,6 +35,46 @@ namespace Asistencia
 			};
 
 			// Abrir la página de escaneo
+			await Navigation.PushAsync(scanPage);
+		}
+
+		private async void EntradaButton_Clicked(object sender, EventArgs e)
+		{
+			var scanPage = new ZXingScannerPage();
+			scanPage.OnScanResult += (result) =>
+			{
+				// Detener el escaneo
+				scanPage.IsScanning = false;
+
+				// Mostrar el resultado
+				Device.BeginInvokeOnMainThread(async () =>
+				{
+					await Navigation.PopAsync();
+					await DisplayAlert("Scanned Barcode", result.Text, "OK");
+				});
+			};
+
+			// Abrir la página de escaneo para entrada
+			await Navigation.PushAsync(scanPage);
+		}
+
+		private async void SalidaButton_Clicked(object sender, EventArgs e)
+		{
+			var scanPage = new ZXingScannerPage();
+			scanPage.OnScanResult += (result) =>
+			{
+				// Detener el escaneo
+				scanPage.IsScanning = false;
+
+				// Mostrar el resultado
+				Device.BeginInvokeOnMainThread(async () =>
+				{
+					await Navigation.PopAsync();
+					await DisplayAlert("Scanned Barcode", result.Text, "OK");
+				});
+			};
+
+			// Abrir la página de escaneo para salida
 			await Navigation.PushAsync(scanPage);
 		}
 	}
