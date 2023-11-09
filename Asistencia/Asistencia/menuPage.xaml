@@ -16,6 +16,12 @@
                 <Button Text="Entrada" Clicked="EntradaButton_Clicked" />
                 <Button Text="Salida" Clicked="SalidaButton_Clicked" />
             </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0">
+                <Label Text="Nombre" TextColor="White" />
+                <Label Text="Apellido" TextColor="White" />
+                <Label Text="Cargo" TextColor="White" />
+                <Label Text="Asistencia" TextColor="White" />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

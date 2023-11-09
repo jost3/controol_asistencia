@@ -1,0 +1,15 @@
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\bin\Debug\netstandard2.0\gereador de qr.deps.json
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\bin\Debug\netstandard2.0\gereador de qr.dll
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\bin\Debug\netstandard2.0\ref\gereador de qr.dll
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\bin\Debug\netstandard2.0\gereador de qr.pdb
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.dll
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\refint\gereador de qr.dll
+C:\Users\Alumno\Desktop\movil\gereador de qr\gereador de qr\obj\Debug\netstandard2.0\gereador de qr.pdb
