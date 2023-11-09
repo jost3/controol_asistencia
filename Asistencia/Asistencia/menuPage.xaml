@@ -1,27 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Asistencia.menuPage"
              BackgroundColor="#112B47">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <StackLayout Padding="10">
-                <Label Text="CONTROL DE ASISTENCIA" 
-                       TextColor="White" 
-                       FontSize="Large" 
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="CenterAndExpand"/>
-            </StackLayout>
-            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0">
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10">
+            <Label Text="CONTROL DE ASISTENCIA" 
+                   TextColor="White" 
+                   FontSize="Large" 
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Start" />
+
+            <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0">
                 <Button Text="Entrada" Clicked="EntradaButton_Clicked" />
                 <Button Text="Salida" Clicked="SalidaButton_Clicked" />
             </StackLayout>
-            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Margin="0,20,0,0">
-                <Label Text="Nombre" TextColor="White" />
-                <Label Text="Apellido" TextColor="White" />
-                <Label Text="Cargo" TextColor="White" />
-                <Label Text="Asistencia" TextColor="White" />
+
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Start" Margin="0,20,0,0">
+                <Label Text="Nombre:" TextColor="White" HorizontalOptions="Start" />
+                <Label Text="Apellido:" TextColor="White" HorizontalOptions="Start" />
+                <Label Text="Cargo:" TextColor="White" HorizontalOptions="Start" />
+                <Label Text="Asistencia:" TextColor="White" HorizontalOptions="Start" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+
