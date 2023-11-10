@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "AHIg8BLXoPKbz/rft38YWmQpRIXkT2S5BNQtrKW7+rhr7xIBspmY8oG08hE4Ypi35iazhmXwcYXKgaWHhs2YKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\generadorQR\\generadorQR\\generadorQR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Josue\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\Josue\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

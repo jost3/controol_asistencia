@@ -1,0 +1,15 @@
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\bin\Debug\netstandard2.0\generadorQR.deps.json
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\bin\Debug\netstandard2.0\generadorQR.dll
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\bin\Debug\netstandard2.0\ref\generadorQR.dll
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\bin\Debug\netstandard2.0\generadorQR.pdb
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.csproj.AssemblyReference.cache
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.AssemblyInfoInputs.cache
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.AssemblyInfo.cs
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.csproj.CoreCompileInputs.cache
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.dll
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\refint\generadorQR.dll
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR\obj\Debug\netstandard2.0\generadorQR.pdb
