@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj": {}
+    "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj": {
+    "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj",
         "projectName": "Asistencia.Android",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia.Android\\obj\\",
+        "projectPath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia.Android\\Asistencia.Android.csproj",
+        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\Asistencia.csproj": {
-                "projectPath": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\Asistencia.csproj"
+              "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\Asistencia.csproj": {
+                "projectPath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\Asistencia.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\Asistencia.csproj": {
+    "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\Asistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\Asistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\Asistencia.csproj",
         "projectName": "Asistencia",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\Asistencia.csproj",
-        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\movil\\Asistencia\\Asistencia\\obj\\",
+        "projectPath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\Asistencia.csproj",
+        "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Josue\\Desktop\\asist\\controol_asistencia\\Asistencia\\Asistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -133,7 +133,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
