@@ -59,9 +59,11 @@ namespace Asistencia
 				});
 			};
 
-			// Abrir la página de escaneo para entrada
-			await Navigation.PushAsync(scanPage);
-		}
+            // Abrir la página de escaneo para entrada
+            await ScanAndPopulateEntries(nombre, apellido, cargo);
+
+
+        }
 
 		private async void SalidaButton_Clicked(object sender, EventArgs e)
 		{
@@ -79,9 +81,43 @@ namespace Asistencia
 				});
 			};
 
-			// Abrir la página de escaneo para salida
-			await Navigation.PushAsync(scanPage);
-		}
+            await ScanAndPopulateEntries(nombre, apellido, cargo);
+
+        }
+        private async Task ScanAndPopulateEntries(Entry  entry1, Entry entry2, Entry entry3)
+        {
+            var scanPage = new ZXingScannerPage();
+
+            scanPage.OnScanResult += (result) =>
+            {
+                // Detener el escaneo
+                scanPage.IsScanning = false;
+
+                // Mostrar el resultado
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await Navigation.PopAsync();
+
+                    // Procesa el resultado como desees
+                    string processedResult = ProcessScanResult(result.Text);
+
+                    // Asigna el resultado al Entry correspondiente
+                    entry1.Text = processedResult;
+                    entry2.Text = processedResult;
+                    entry3.Text = processedResult;
+                });
+            };
+
+            // Abrir la página de escaneo
+            await Navigation.PushAsync(scanPage);
+        }
+
+        private string ProcessScanResult(string scanResult)
+        {
+            // Aquí puedes implementar la lógica para procesar el resultado según tus necesidades
+            // Por ejemplo, puedes extraer los primeros 5 caracteres
+            return scanResult.Length >= 10 ? scanResult.Substring(0, 10) : scanResult;
+        }
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
             // Este método se llama cada segundo (ajusta según tus necesidades)
