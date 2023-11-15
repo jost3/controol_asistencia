@@ -27,7 +27,7 @@ namespace generadorQR
             qr.BarcodeFormat = ZXing.BarcodeFormat.QR_CODE;
             qr.BarcodeOptions.Width = 500;
             qr.BarcodeOptions.Height = 500;
-            qr.BarcodeValue = "josue cotera bravo. cargo:profesor.";
+            qr.BarcodeValue = "Josue Cotera Bravo Profesor";
             stkQR.Children.Add(qr);
         }
     }

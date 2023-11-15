@@ -681,3 +681,4 @@ C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR.Android
 C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Josue\Desktop\asist\controol_asistencia\generadorQR\generadorQR.Android\obj\Debug\130\res\drawable\portada.png

@@ -102,9 +102,9 @@ namespace Asistencia
                     string processedResult = ProcessScanResult(result.Text);
 
                     // Asigna el resultado al Entry correspondiente
-                    entry1.Text = processedResult;
-                    entry2.Text = processedResult;
-                    entry3.Text = processedResult;
+                    entry1.Text = processedResult.Substring(0, 5); // Primeros 10 caracteres
+                    entry2.Text = processedResult.Substring(6, 12); // Caracteres entre 6 y 20
+                    entry3.Text = processedResult.Substring(processedResult.Length - 8, 8); // Últimos 6 caracteres
                 });
             };
 
@@ -116,7 +116,7 @@ namespace Asistencia
         {
             // Aquí puedes implementar la lógica para procesar el resultado según tus necesidades
             // Por ejemplo, puedes extraer los primeros 5 caracteres
-            return scanResult.Length >= 10 ? scanResult.Substring(0, 10) : scanResult;
+            return scanResult.Length >= 27 ? scanResult.Substring(0, 27) : scanResult;
         }
         private void TimerElapsed(object sender, ElapsedEventArgs e)
         {
