@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Firebase.Database;
+using Firebase.Database.Query;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +15,7 @@ namespace Asistencia
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class menuPage : ContentPage
 	{
+        FirebaseClient firebase = Conexion.conex.db1;
         private Timer timer;
         public menuPage()
 		{
@@ -127,6 +130,38 @@ namespace Asistencia
             {
                 hora1.Text = DateTime.Now.ToString("HH:mm:ss");
             });
+        }
+
+        async void Button_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                // Obtiene los valores de los Entry
+                string nombreText = nombre.Text;
+                string apellidoText = apellido.Text;
+                string cargoText = cargo.Text;
+
+                // Crea un nuevo objeto para almacenar en la base de datos
+                var nuevoRegistro = new Conexion.conex.Registro
+                {
+                    nombre = nombreText,
+                    apellido = apellidoText,
+                    cargo = cargoText
+                };
+                // Guarda el objeto en la base de datos
+                await firebase.Child("registros").PostAsync(nuevoRegistro);
+
+                // Puedes agregar más lógica aquí, como mostrar un mensaje de éxito
+                Console.WriteLine("Registro guardado exitosamente en Firebase");
+            }
+            catch (Exception ex)
+            {
+                // Maneja cualquier excepción que pueda ocurrir durante la operación
+                // Maneja cualquier excepción que pueda ocurrir durante la operación
+                Console.WriteLine($"Error al intentar guardar en Firebase: {ex.Message}");
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
         }
     }
 }

@@ -23,6 +23,7 @@
                 <Label Text="Cargo:" TextColor="White" HorizontalOptions="Start" />
                 <Entry TextColor="White" x:Name="cargo"></Entry>
                 <Label Text="Asistencia:" x:Name="hora1" TextColor="White" HorizontalOptions="Start" />
+                <Button  Text="Enviar" Clicked="Button_Clicked"/>
 
             </StackLayout>
         </StackLayout>
