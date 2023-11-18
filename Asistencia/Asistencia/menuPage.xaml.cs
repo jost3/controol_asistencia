@@ -141,13 +141,16 @@ namespace Asistencia
                 string apellidoText = apellido.Text;
                 string cargoText = cargo.Text;
 
+                string horaActual = DateTime.Now.ToString("HH:mm:ss");
                 // Crea un nuevo objeto para almacenar en la base de datos
                 var nuevoRegistro = new Conexion.conex.Registro
                 {
                     nombre = nombreText,
                     apellido = apellidoText,
-                    cargo = cargoText
+                    cargo = cargoText,
+                    hora = horaActual // Asigna la hora actual al campo hora
                 };
+                // Obtiene la hora actual
                 // Guarda el objeto en la base de datos
                 await firebase.Child("registros").PostAsync(nuevoRegistro);
 

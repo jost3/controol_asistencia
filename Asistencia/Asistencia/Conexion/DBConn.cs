@@ -18,7 +18,8 @@ namespace Asistencia.Conexion
             public string nombre { get; set; }
             public string apellido { get; set; }
             public string cargo { get; set; }
-            
+            public string hora { get; set; }
+
         }
     }
 }
