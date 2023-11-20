@@ -11,8 +11,8 @@
                    VerticalOptions="Start" />
 
             <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Margin="0,50,0,0">
-                <Button Text="Entrada" Clicked="EntradaButton_Clicked" />
-                <Button Text="Salida" Clicked="SalidaButton_Clicked" />
+                <Button Text="Entrada" ClassId="Entrada" Clicked="EntradaButton_Clicked" />
+                <Button Text="Salida"  ClassId="Salida" Clicked="SalidaButton_Clicked" />
             </StackLayout>
 
             <StackLayout  VerticalOptions="Start" HorizontalOptions="FillAndExpand" Margin="0,20,0,0">

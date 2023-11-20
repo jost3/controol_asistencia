@@ -61,7 +61,7 @@ namespace Asistencia
 					await DisplayAlert("Scanned Barcode", result.Text, "OK");
 				});
 			};
-
+          
             // Abrir la página de escaneo para entrada
             await ScanAndPopulateEntries(nombre, apellido, cargo);
 
@@ -83,6 +83,8 @@ namespace Asistencia
 					await DisplayAlert("Scanned Barcode", result.Text, "OK");
 				});
 			};
+           
+         
 
             await ScanAndPopulateEntries(nombre, apellido, cargo);
 
@@ -108,6 +110,7 @@ namespace Asistencia
                     entry1.Text = processedResult.Substring(0, 5); // Primeros 10 caracteres
                     entry2.Text = processedResult.Substring(6, 12); // Caracteres entre 6 y 20
                     entry3.Text = processedResult.Substring(processedResult.Length - 8, 8); // Últimos 6 caracteres
+
                 });
             };
 
@@ -132,15 +135,17 @@ namespace Asistencia
             });
         }
 
-        async void Button_Clicked(object sender, EventArgs e)
+         async void Button_Clicked(object sender, EventArgs e)
         {
             try
             {
+                
                 // Obtiene los valores de los Entry
                 string nombreText = nombre.Text;
                 string apellidoText = apellido.Text;
                 string cargoText = cargo.Text;
-
+            
+                string fechaActual = DateTime.Now.ToString("yyyy-MM-dd");
                 string horaActual = DateTime.Now.ToString("HH:mm:ss");
                 // Crea un nuevo objeto para almacenar en la base de datos
                 var nuevoRegistro = new Conexion.conex.Registro
@@ -148,7 +153,10 @@ namespace Asistencia
                     nombre = nombreText,
                     apellido = apellidoText,
                     cargo = cargoText,
-                    hora = horaActual // Asigna la hora actual al campo hora
+                    fecha = fechaActual,
+                    hora = horaActual,
+               
+
                 };
                 // Obtiene la hora actual
                 // Guarda el objeto en la base de datos
