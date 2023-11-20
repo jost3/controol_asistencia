@@ -17,6 +17,7 @@ namespace Asistencia
 	{
         FirebaseClient firebase = Conexion.conex.db1;
         private Timer timer;
+        private string nombreBotonActual;
         public menuPage()
 		{
 			InitializeComponent();
@@ -28,7 +29,8 @@ namespace Asistencia
 
 		private async void ScanButton_Clicked(object sender, EventArgs e)
 		{
-			var scanPage = new ZXingScannerPage();
+            nombreBotonActual = "ScanButton"; // Asigna el nombre del botón actual
+            var scanPage = new ZXingScannerPage();
 			scanPage.OnScanResult += (result) =>
 			{
 				// Detener el escaneo
@@ -48,7 +50,8 @@ namespace Asistencia
 
 		private async void EntradaButton_Clicked(object sender, EventArgs e)
 		{
-			var scanPage = new ZXingScannerPage();
+            nombreBotonActual = "Entrada";
+            var scanPage = new ZXingScannerPage();
 			scanPage.OnScanResult += (result) =>
 			{
 				// Detener el escaneo
@@ -70,7 +73,8 @@ namespace Asistencia
 
 		private async void SalidaButton_Clicked(object sender, EventArgs e)
 		{
-			var scanPage = new ZXingScannerPage();
+            nombreBotonActual = "Salida";
+            var scanPage = new ZXingScannerPage();
 			scanPage.OnScanResult += (result) =>
 			{
 				// Detener el escaneo
@@ -107,10 +111,11 @@ namespace Asistencia
                     string processedResult = ProcessScanResult(result.Text);
 
                     // Asigna el resultado al Entry correspondiente
-                    entry1.Text = processedResult.Substring(0, 5); // Primeros 10 caracteres
-                    entry2.Text = processedResult.Substring(6, 12); // Caracteres entre 6 y 20
-                    entry3.Text = processedResult.Substring(processedResult.Length - 8, 8); // Últimos 6 caracteres
+                    entry1.Text = processedResult.Substring(0, 5); // Primeros 5 caracteres
+                    entry2.Text = processedResult.Substring(6, 12); // Caracteres entre 6 y 12
+                    entry3.Text = processedResult.Substring(processedResult.Length - 8, 8); // Últimos 8 caracteres
 
+                   
                 });
             };
 
@@ -155,7 +160,7 @@ namespace Asistencia
                     cargo = cargoText,
                     fecha = fechaActual,
                     hora = horaActual,
-               
+                    nombreBoton = nombreBotonActual
 
                 };
                 // Obtiene la hora actual
